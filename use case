@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T11:51:29.708Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="UUBnA8deNJaUZNo9CyD9" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T12:10:59.317Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="W_3QfOzwN7ezjeO8r5B9" version="14.5.8" type="github">
   <diagram id="n_kTrgvT9DNYetmPMy3r" name="Page-1">
-    <mxGraphModel dx="2181" dy="1914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2181" dy="1975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="-60" y="360" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-2" value="Secretária" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="920" y="320" width="30" height="60" as="geometry" />
+          <mxGeometry x="920" y="160" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-3" value="Marcar consulta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="50" width="140" height="70" as="geometry" />
+          <mxGeometry x="250" y="-40" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-9" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.604;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;strokeColor=none;" edge="1" parent="1" source="Zcy4JzWMc9eENBbThn_c-1" target="Zcy4JzWMc9eENBbThn_c-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -34,13 +34,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-14" value="Verificar se já existe cadastro do cliente e do animal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-140" width="140" height="70" as="geometry" />
+          <mxGeometry x="250" y="-230" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Zcy4JzWMc9eENBbThn_c-21" value="Atualizar dados cadastrais" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="50" width="140" height="70" as="geometry" />
+        <mxCell id="Zcy4JzWMc9eENBbThn_c-21" value="Atualizar dados cadastrais do animal,cleinte, ou médico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="100" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-23" value="Realizar cadastro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-110" width="140" height="70" as="geometry" />
+          <mxGeometry x="430" y="-210" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-25" value="Médico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="920" y="700" width="30" height="60" as="geometry" />
@@ -58,7 +58,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-31" value="Cadastrar os sintomas do animal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="160" width="140" height="70" as="geometry" />
+          <mxGeometry x="290" y="200" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-35" value="Marcar exame" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="490" width="140" height="70" as="geometry" />
@@ -98,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-58" value="Atualizar histórico de consultas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="240" width="140" height="70" as="geometry" />
+          <mxGeometry x="450" y="250" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-59" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zcy4JzWMc9eENBbThn_c-26" target="Zcy4JzWMc9eENBbThn_c-58">
           <mxGeometry x="0.0521" y="16" width="160" relative="1" as="geometry">
@@ -108,7 +108,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-60" value="Gerar conta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="350" width="140" height="70" as="geometry" />
+          <mxGeometry x="550" y="355" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Zcy4JzWMc9eENBbThn_c-61" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Zcy4JzWMc9eENBbThn_c-60">
           <mxGeometry x="0.0587" y="12" width="160" relative="1" as="geometry">
@@ -161,7 +161,7 @@
             <mxPoint x="690" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zcy4JzWMc9eENBbThn_c-79" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zcy4JzWMc9eENBbThn_c-21" target="Zcy4JzWMc9eENBbThn_c-3">
+        <mxCell id="Zcy4JzWMc9eENBbThn_c-79" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zcy4JzWMc9eENBbThn_c-21" target="Zcy4JzWMc9eENBbThn_c-3">
           <mxGeometry x="0.0909" y="-15" width="160" relative="1" as="geometry">
             <mxPoint x="480.5025253169392" y="-30.251262658469614" as="sourcePoint" />
             <mxPoint x="379" y="80" as="targetPoint" />
@@ -178,6 +178,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="360" as="sourcePoint" />
             <mxPoint x="840" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zcy4JzWMc9eENBbThn_c-85" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zcy4JzWMc9eENBbThn_c-2" target="Zcy4JzWMc9eENBbThn_c-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="180" as="sourcePoint" />
+            <mxPoint x="570" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
